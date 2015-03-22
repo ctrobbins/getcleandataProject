@@ -13,10 +13,10 @@ output: html_document
 #### - run.analysis() - This function takes select datasets within the UCI HAR Dataset, combines them, adds and cleans up column headings, and creates a final tidy dataset.
 
 ### download.data() function variables and function
-#### *url* - variable to hold the web URL for the download source
-#### *file* - variable to hold file name of local saved file downloaded from URL above
-#### function - the download.file(url, file) function is used to download the file and save it into the current working directory.
-#### The unzip(file) function is used to unzip the downloaded zip file into the current working directory. This particular zip file creates a "UCI HAR Dataset" subdirectory within which all the data files are stored.
+* *url* - variable to hold the web URL for the download source
+* *file* - variable to hold file name of local saved file downloaded from URL above
+* function - the download.file(url, file) function is used to download the file and save it into the current working directory.
+* The unzip(file) function is used to unzip the downloaded zip file into the current working directory. This particular zip file creates a "UCI HAR Dataset" subdirectory within which all the data files are stored.
 
 ### run.analysis() function variables
 * *ftrs* - data table into which "features.txt" data is loaded. This table contains a list of all 561 variables measured in the experiment and stored in the X_train and X_test files.
