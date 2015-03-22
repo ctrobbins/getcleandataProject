@@ -53,4 +53,4 @@ output: html_document
 18. Clean up list of names by replacing mean with Mean, std with Std, removing parenthesis and dashes, and replacing "BodyBody" with "Body"
 19. Re-assign column names in datafinal to cleaned up names
 20. Change working directory to be outside "UCI HAR Dataset" subdirectory
-21. Write csv files for both datafinal and dataraw tables
+21. Write txt files in csv format for both datafinal and dataraw tables

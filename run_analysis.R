@@ -88,8 +88,8 @@ run.analysis <- function() {
   
   ## write raw data and tidy dataset files back
   setwd("..")
-  write.csv(dataraw, file="dataraw.csv", row.names=FALSE, quote=FALSE)
-  write.csv(datafinal, file="datafinal.csv", row.names=FALSE, quote=FALSE)
+  write.csv(dataraw, file="dataraw.txt", row.names=FALSE, quote=FALSE)
+  write.csv(datafinal, file="datafinal.txt", row.names=FALSE, quote=FALSE)
   
-  print("Finished. Two files (dataraw.csv and datafinal.csv) saved.")
+  print("Finished. Two files (dataraw.txt and datafinal.txt) saved in csv format.")
 }

@@ -10,8 +10,8 @@ Copy run.analysis.R file into your local R working directory
 In R type "Source('run.analysis.R')" to load the file
 Note the file uses the dplyr package. This package will need to be installed via "install.packages('dplyr')" if not already installed in your local R instance.
 Type "download.data()" to download the zipped data file and unzip it into a subdirectory of your working directory. Note the zip file is ~60 MB and may take several minutes depending on your internet speed.
-Type "run.analysis()" to create the tiny dataset "datafinal.csv" in your working directory. The function will print out progress activities as it completes each step.
-The intermediate file "dataraw.csv" is also saved to your working directory and contains the raw data before being grouped and averaged by Activity and Subject.
+Type "run.analysis()" to create the tiny dataset "datafinal.txt" in your working directory (in comma separated value format). The function will print out progress activities as it completes each step.
+The intermediate file "dataraw.txt" is also saved to your working directory and contains the raw data before being grouped and averaged by Activity and Subject.
 
 ## ADDITIONAL INFORMATION
 The "Codebook.md" file contains a detailed description of the "run.analysis.R" script.
