@@ -2,7 +2,6 @@
 title: "Codebook"
 author: "Chris Robbins"
 date: "Sunday, March 22, 2015"
-output: html_document
 ---
 
 ## This Codebook describes the code in the "run_analysis.R" file.
